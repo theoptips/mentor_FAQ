@@ -10,6 +10,7 @@
 - FAQ 007	Facebook Ads Manager can be accessed through the Facebook search bar.
 - FAQ 008	Some features are only available on Facebook Ads Manager on Desktop. Mobile devices, including iPads do not support all features. Some features may render incorrectly on mobile devices.
 - FAQ 009	Use the Facebook Ads Manager mobile app to quickly view ad performances and making minor changes.
+- FAQ 010	Best practice of students presentation deck: use modern icon, use creatives aka images, use external research statistics aka XYZ firm ranks ABC technology as the top choice for influencer marketing for 2019
 
 # ANSWERS
 - Answer 001 [Prototyping Lean UX Customer Journey Map](https://blog.marvelapp.com/proto-journey-lean-ux-customer-journey-map/)
@@ -22,6 +23,7 @@
 - Answer 008 [Burberry on Instagram](https://www.webbyawards.com/news/webby-instagram-all-stars-bseries)
 - Answer 009 [Augmented Reality for eCommerce](https://www.shopify.com/blog/augmented-reality-commerce)
 - Answer 010 [Shop Grid](https://buffer.com/shop-grid)
+- Answer 011 [Must read digital marketing trend 2019](https://medium.com/growth-hackers-guide/must-read-articles-in-2019-for-growth-hackers-and-digital-marketers-65b81897e25a)
 
 # Related FAQ 
 - Customer Journey 001 004 005
