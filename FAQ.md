@@ -27,5 +27,7 @@
 - Answer 012 [Pytorch Cheatsheet for Beginners | Udacity Deep Learning Nanodegree | Udacity Intro to Machine Learning Uniqtech on Medium](https://medium.com/@uniqtech/pytorch-cheat-sheet-for-beginners-and-udacity-deep-learning-nanodegree-5aadc827de82)
 
 # Related FAQ 
-001 002
+- Pytorch VGG error no attribute 001 002
+- Pytorch general 012 006
+- Project CharityML 
 
