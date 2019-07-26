@@ -9,7 +9,8 @@
 - FAQ 006	Transfer learning with Pytorch Ans: 006
 - FAQ 007 	Categorical Encoding Ans: 007
 - FAQ 008	How to check the rank of a tensor? Ans: 010
-- FAQ 009	Anaconda environment cheat sheet Ans: 010
+- FAQ 009	Anaconda environment cheat sheet Ans: 011
+- FAQ 010	Pytorch Cheatsheet | Pytorch 101 Ans: 012, 006
 
 # ANSWERS
 - Answer 001 [Pytorch Forum VGG Object Has No Attribute Error](https://discuss.pytorch.org/t/vgg-object-has-no-attribute-fc/9124/3)
@@ -22,7 +23,8 @@
 - Answer 008 [One Hot Encode Data in Machine Learning Machine Learning Mastery](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)
 - Answer 009 [Imbalanced Datasets](https://blog.dominodatalab.com/imbalanced-datasets/)
 - Answer 010 Check the rank of a tensor by checking the len of its shape tuple `len(tensor.shape)` For example if the rank is 3 then it is a 3-dimensional tensor.
-- Answer 010 [Anaconda Miniconda Cheatsheet for Data Scientists](https://link.medium.com/Rw63GQ2peY)
+- Answer 011 [Anaconda Miniconda Cheatsheet for Data Scientists](https://link.medium.com/Rw63GQ2peY)
+- Answer 012 [Pytorch Cheatsheet for Beginners | Udacity Deep Learning Nanodegree | Udacity Intro to Machine Learning Uniqtech on Medium](https://medium.com/@uniqtech/pytorch-cheat-sheet-for-beginners-and-udacity-deep-learning-nanodegree-5aadc827de82)
 
 # Related FAQ 
 001 002
