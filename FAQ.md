@@ -1,12 +1,15 @@
+# FAQ for Udacity Intro to Machine Learning Nanodegree | Mentorship FAQ
+
 # FAQ
 - FAQ 001	Error VGG object has no attribute error. Ans: 001, 002
 - FAQ 002	How to access hidden layers of Pytorch pre-trained model Ans: 001, 002
 - FAQ 003 	How to access a Pytorch Sequential object Ans: 001, 002
 - FAQ 004	Google Colab Best Practice Ans: 003,
-- FAQ 005	Article recommendations for imbalanced data classes ANs: 004, 005, 009
+- FAQ 005	Article recommendations for imbalanced data classes Ans: 004, 005, 009
 - FAQ 006	Transfer learning with Pytorch Ans: 006
 - FAQ 007 	Categorical Encoding Ans: 007
-- FAQ 008	How to check the rank of a tensor? Answer 010
+- FAQ 008	How to check the rank of a tensor? Ans: 010
+- FAQ 009	Anaconda environment cheat sheet Ans: 010
 
 # ANSWERS
 - Answer 001 [Pytorch Forum VGG Object Has No Attribute Error](https://discuss.pytorch.org/t/vgg-object-has-no-attribute-fc/9124/3)
@@ -18,7 +21,8 @@
 - Answer 007 [Categorical encoding](https://pbpython.com/categorical-encoding.html)
 - Answer 008 [One Hot Encode Data in Machine Learning Machine Learning Mastery](https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/)
 - Answer 009 [Imbalanced Datasets](https://blog.dominodatalab.com/imbalanced-datasets/)
-- Answer 010 Check the rank of a tensor by checking the len of its shape tuple `len(tensor.shape)`
+- Answer 010 Check the rank of a tensor by checking the len of its shape tuple `len(tensor.shape)` For example if the rank is 3 then it is a 3-dimensional tensor.
+- Answer 010 [Anaconda Miniconda Cheatsheet for Data Scientists](https://link.medium.com/Rw63GQ2peY)
 
 # Related FAQ 
 001 002
