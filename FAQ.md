@@ -1,6 +1,7 @@
 # FAQ for Udacity Intro to Machine Learning Nanodegree | Mentorship FAQ
 
 # FAQ
+- FAQ 000	When in doubt email support@udacity.com Ans: 000
 - FAQ 001	Error VGG object has no attribute error. Ans: 001, 002
 - FAQ 002	How to access hidden layers of Pytorch pre-trained model Ans: 001, 002
 - FAQ 003 	How to access a Pytorch Sequential object Ans: 001, 002
@@ -13,9 +14,10 @@
 - FAQ 010	Pytorch Cheatsheet | Pytorch 101 Ans: 012, 006
 - FAQ 011	Trending deep learning technology GANs: living portrait aka few-shot adversarial learning 015 014, AI portraits 013
 - FAQ 012   VGG16... multiple linear layers within the classification layer, so to get the in_features, the command would be model.classifier[0].in_features ... resnet18, the command would need to be model.fc.in_features.  How can I write a general command, which would give me the in_features, no matter which model is passed? asked by FK. This question is also interpreted as building transfer learning pipeline, a workflow, aka a pre-trained model workflow in pytorch. 
-- FAQ 013	Best way to visualize and understand Convolutional Neural Networks kernels, aka filters Youtube video 017, visualization animation 018, intuition 019
+- FAQ 013	Best way to visualize and understand Convolutional Neural Networks kernels, aka filters Youtube video 017, visualization animation 018, intuition 019, advanced 020, 021, 022, 023
 
 # ANSWERS
+- Answer 000 When in doubt email support@udacity.com
 - Answer 001 [Pytorch Forum VGG Object Has No Attribute Error](https://discuss.pytorch.org/t/vgg-object-has-no-attribute-fc/9124/3)
 - Answer 002 [Pytorch Transfer learning on Medium](http://bit.ly/transfer_learning_pytorch)
 - Answer 003 When starting a session in colab, the runtime environment is reset. Be sure to save checkpoint and data, back up the Jupyter Notebook often. 
@@ -35,7 +37,10 @@
 - Answer 017 [Luis Serrano from Udacity explains CNN filters and kernels in a youtube video](https://www.youtube.com/watch?v=2-Ol7ZB0MmU)
 - Answer 018 [Best animation and visualization for Convolutional Neural Network kernels spanning](https://iamaaditya.github.io/2016/03/one-by-one-convolution/)
 - Answer 019 Kernels are usually a small matrix you use to scan your original image to find small patterns for example this 3 x 3 kernel `[[0,0,0],[1,1,1],[0,0,0]` is create for finding horizontal lines, because any multiplication that is not in the center axis will be 0, only if the original image also have a specific pattern like [256, 256, 256] for example this matrix multiplication will result in a large number. If the output of the convolution is small it means the pattern is not found. A slanted line kernel looks like `[0,0,1],[0,1,0],[1,0,0]` if you imagine this matrix is a squared 3x3 matrix, the pattern looks like this `/` and a line slanted to the left `\` looks like `[1,0,0][0,1,0][0,0,1]`
-
+- Answer 020 [Understanding your convolution network with Visualization](https://towardsdatascience.com/understanding-your-convolution-network-with-visualizations-a4883441533b)
+- Answer 021 [Understand CNN Stanford CS231](http://cs231n.github.io/understanding-cnn/)
+- Answer 022 [Filter Visualization](https://jacobgil.github.io/deeplearning/filter-visualizations)
+- Answer 023 [Understanding convolutional neural network through visualization in pytorch](https://towardsdatascience.com/understanding-convolutional-neural-networks-through-visualizations-in-pytorch-b5444de08b91)
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
