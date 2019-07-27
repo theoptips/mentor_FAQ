@@ -8,6 +8,7 @@
 - FAQ 004	Trending deep learning technology GANs: Ans: intro to ML FAQ 011
 - FAQ 005	How to build a transfer learning model pipeline / workflow in Pytorch Intro to ML FAQ 012
 
+
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
 - Answer 001 [Amazon SageMaker Getting Started | Deep Learning Production Deployment on Amazon Web Services by Uniqtech on Medium](https://medium.com/swlh/jupyter-notebook-on-amazon-sagemaker-getting-started-55489f500439)

@@ -15,6 +15,7 @@
 - FAQ 011	Trending deep learning technology GANs: living portrait aka few-shot adversarial learning 015 014, AI portraits 013
 - FAQ 012   VGG16... multiple linear layers within the classification layer, so to get the in_features, the command would be model.classifier[0].in_features ... resnet18, the command would need to be model.fc.in_features.  How can I write a general command, which would give me the in_features, no matter which model is passed? asked by FK. This question is also interpreted as building transfer learning pipeline, a workflow, aka a pre-trained model workflow in pytorch. 
 - FAQ 013	Best way to visualize and understand Convolutional Neural Networks kernels, aka filters Youtube video 017, visualization animation 018, intuition 019, advanced 020, 021, 022, 023
+- FAQ 014	I want to add a fourth dimension to my seaborn plot, what shall I do? Ans 024
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -41,6 +42,12 @@
 - Answer 021 [Understand CNN Stanford CS231](http://cs231n.github.io/understanding-cnn/)
 - Answer 022 [Filter Visualization](https://jacobgil.github.io/deeplearning/filter-visualizations)
 - Answer 023 [Understanding convolutional neural network through visualization in pytorch](https://towardsdatascience.com/understanding-convolutional-neural-networks-through-visualizations-in-pytorch-b5444de08b91)
+- Answer 024	Many seaborn plots allow you to easily display comparable data side-by-side by setting `hue` color.  Example 
+'''
+import seaborn as sns
+sns.factorplot('income', 'capital-gain', hue='sex', data=data, kind='bar', col='race', row='relationship')
+'''
+Check out this Titanic plot where the hue is `class`. `sns.countplot(x='survived',hue='class',data=df) https://stackoverflow.com/questions/50319614/count-plot-with-stacked-bars-per-hue
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
