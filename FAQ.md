@@ -43,10 +43,10 @@
 - Answer 022 [Filter Visualization](https://jacobgil.github.io/deeplearning/filter-visualizations)
 - Answer 023 [Understanding convolutional neural network through visualization in pytorch](https://towardsdatascience.com/understanding-convolutional-neural-networks-through-visualizations-in-pytorch-b5444de08b91)
 - Answer 024	Many seaborn plots allow you to easily display comparable data side-by-side by setting `hue` color.  Example 
-'''
+```
 import seaborn as sns
 sns.factorplot('income', 'capital-gain', hue='sex', data=data, kind='bar', col='race', row='relationship')
-'''
+```
 Check out this Titanic plot where the hue is `class`. `sns.countplot(x='survived',hue='class',data=df) https://stackoverflow.com/questions/50319614/count-plot-with-stacked-bars-per-hue
 
 # Related FAQ 
