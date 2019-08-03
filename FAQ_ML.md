@@ -16,6 +16,7 @@
 - Answer 002 [Real Python Writing Pythonic Code](https://realpython.com/learning-paths/writing-pythonic-code/)
 - Answer 003 [Amazon SageMaker Now Comes with New Capabilities for Acelerating Machine Learning Experiment](https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-now-comes-with-new-capabilities-for-accelerating-machine-learning-experimentation/)
 - Answer 004 [Why are my contributions not showing up on my profile](https://help.github.com/en/articles/why-are-my-contributions-not-showing-up-on-my-profile)
+- Answer 005 When in doubt lower the learning rate to help the model converge.
 
 # Related FAQ 
 - Project Amazon SageMaker Deployment 001

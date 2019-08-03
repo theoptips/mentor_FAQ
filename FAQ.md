@@ -50,6 +50,7 @@ sns.factorplot('income', 'capital-gain', hue='sex', data=data, kind='bar', col='
 ```
 Check out this Titanic plot where the hue is `class`. `sns.countplot(x='survived',hue='class',data=df) https://stackoverflow.com/questions/50319614/count-plot-with-stacked-bars-per-hue
 - Answer 024 [Why are my contributions not showing up on my profile](https://help.github.com/en/articles/why-are-my-contributions-not-showing-up-on-my-profile)
+- Answer 025 When in doubt lower the learning rate to help the model converge.
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002

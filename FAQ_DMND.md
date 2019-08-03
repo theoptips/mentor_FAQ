@@ -34,7 +34,7 @@
 - Answer 014 There is signal in the Udacity master ad account that Facebook ads performed slightly better than Instagram ad, though this is because now it could be more expensive to advertise on Instagram. 
 - Answer 015 One top performing ad targeted Brazil and was able to achieve smaller cost per click because everyone else targeted North America, which is more expensive to target, and more competitive.
 - Answer 016 One top performing ad set targeted digital marketers by their current job title as well as professional interrests.
-
+- Answer 017 [Storyboards Replaces User Journey- Digital Marketing Trend](https://www.invisionapp.com/inside-design/user-journey-storyboards)
 
 # Related FAQ 
 - Customer Journey 001 004 005
