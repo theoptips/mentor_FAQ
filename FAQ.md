@@ -17,6 +17,8 @@
 - FAQ 013	Best way to visualize and understand Convolutional Neural Networks kernels, aka filters Youtube video 017, visualization animation 018, intuition 019, advanced 020, 021, 022, 023
 - FAQ 014	I want to add a fourth dimension to my seaborn plot, what shall I do? Ans 024
 - FAQ 015	Github contribution guideline, how do you make your commits count, how to get credit for the github activity tracker Ans: 024
+- FAQ 016 My data frame looks different every time I run it. 
+- FAQ 017 What should I expect at the end of the course? What would I gain from this course? Ans: 
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -51,6 +53,9 @@ sns.factorplot('income', 'capital-gain', hue='sex', data=data, kind='bar', col='
 Check out this Titanic plot where the hue is `class`. `sns.countplot(x='survived',hue='class',data=df) https://stackoverflow.com/questions/50319614/count-plot-with-stacked-bars-per-hue
 - Answer 024 [Why are my contributions not showing up on my profile](https://help.github.com/en/articles/why-are-my-contributions-not-showing-up-on-my-profile)
 - Answer 025 When in doubt lower the learning rate to help the model converge.
+- Answer 026 Some algorithms are sensitive to initialization - weight initialization, centroid initialization, use random_state, or random seed to get reproducible results
+- Answer 026 Ability to consume literature, entry-level understanding of research in Machine Learning, Artificial Intelligence, get exposure to Deep Learning, ability to understand classical ML models, 
+
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
