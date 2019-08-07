@@ -10,7 +10,7 @@
 - FAQ 006	Github contribution guideline, how do you make your commits count, how to get credit for the github activity tracker Ans: 004
 - FAQ 007	Reproducible research, deep learning, machine learning Ans: 006
 - FAQ 008	What should I expect at the end of the course? What would I gain from this course? Ans: 007
-- FAQ 009	
+- FAQ 009 Data Augmentation in Computer Vision, why and how to do it
 
 
 # ANSWERS
@@ -22,6 +22,7 @@
 - Answer 005 When in doubt lower the learning rate to help the model converge.
 - Answer 006 Some algorithms are sensitive to initialization - weight initialization, centroid initialization, use random_state, or random seed to get reproducible results
 - Answer 007 You will gain intro level production deployment experience to AWS SageMaker, get experience with a capstone project, get intermediate-advanced python coding experience, OOP, docstring.
+- Answer 008 [The Effectiveness of Data Augmentation in Image Classification using Deep Learning](http://cs231n.stanford.edu/reports/2017/pdfs/300.pdf)
 
 # Related FAQ 
 - Project Amazon SageMaker Deployment 001
