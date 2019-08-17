@@ -15,7 +15,7 @@
 - FAQ 011	Some ad manager functionalities are not available on mobile, only available on desktop. Use desktop to access the ad manager, allt he time, to be safe.
 - FAQ 012	Help, my ad set is deleted. First email support Ans 000. Take screenshots of the Ad Id, creatives/images, content, parameters you may need it to recreate your ads. Follow instructions very carefully, if you don't follow the instructions and rubric very carefully, your Ad may be deleted and you will have to recreate it and go through the approval process. Email support
 - FAQ 013	How to fine tune my ad? Did you know you can view best performing ads, and the overall demographics data in the Udacity ad master account? During one-on-one session with one student we found Ans: 013 014 015 016
-- FAQ 014	My Google adwords ads or Facebook ads are not showing. 
+- FAQ 014	My Google adwords ads or Facebook ads are not showing. Ans 018
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
