@@ -18,7 +18,10 @@
 - FAQ 014	I want to add a fourth dimension to my seaborn plot, what shall I do? Ans 024
 - FAQ 015	Github contribution guideline, how do you make your commits count, how to get credit for the github activity tracker Ans: 024
 - FAQ 016 My data frame looks different every time I run it. 
-- FAQ 017 What should I expect at the end of the course? What would I gain from this course? Ans: 
+- FAQ 017 What should I expect at the end of the course? What would I gain from this course? Ans:026
+- FAQ 018 Is it normal to spend so much time data cleaning in the last project Customer Segmentation? Ans: 027
+- FAQ 019 Where do I find summary data, meta data of the dataset for Customer Segmentation? How do I know which unknown or missing values to replace? Ans: 028
+
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -54,7 +57,9 @@ Check out this Titanic plot where the hue is `class`. `sns.countplot(x='survived
 - Answer 024 [Why are my contributions not showing up on my profile](https://help.github.com/en/articles/why-are-my-contributions-not-showing-up-on-my-profile)
 - Answer 025 When in doubt lower the learning rate to help the model converge.
 - Answer 026 Some algorithms are sensitive to initialization - weight initialization, centroid initialization, use random_state, or random seed to get reproducible results
-- Answer 026 Ability to consume literature, entry-level understanding of research in Machine Learning, Artificial Intelligence, get exposure to Deep Learning, ability to understand classical ML models, 
+- Answer 026 Ability to consume literature, entry-level understanding of research in Machine Learning, Artificial Intelligence, get exposure to Deep Learning, ability to understand classical ML models
+- Answer 027 It is estimated that majority time cost of a data science project is spent on data cleaning, so this project mimics a real world project. See soure: data scientists spend most of their time massaging rather than mining or modeling data http://www.forbes.com/sites/gilpress/2016/03/23/data-preparation-most-time-consuming-least-enjoyable-data-science-task-survey-says/
+- Answer 028 This project also mimics real life data science projects and Kaggle competitions that it comes with meta files and summary files that describe the encoding the data. Click Menu > Open in the Jupyter Notebook menu to view the actual files. or use command line commands in Jupyter Notebook `!ls` to show files `cat replace_your_file_name.md` to view files. Be sure to change the file name after the `cat` command to your own. 
 
 
 # Related FAQ 
