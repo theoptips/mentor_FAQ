@@ -25,6 +25,7 @@
 - FAQ 021 Batch size and stochastic gradient descent Ans: 030
 - FAQ 022 Introduction to ArgParse command line with python Ans: 031
 - FAQ 023 Tips for working on a command line deep learning project. Ans: 032
+- FAQ 024 Save your dataset and progress with python pickle file. Ans: 033
 
 
 # ANSWERS
@@ -68,6 +69,8 @@ Check out this Titanic plot where the hue is `class`. `sns.countplot(x='survived
 - Answer 030 Batch size and stochastic gradient descent https://stats.stackexchange.com/questions/140811/how-large-should-the-batch-size-be-for-stochastic-gradient-descent/141265#141265
 - Answer 031 https://pythonprogramming.net/argparse-cli-intermediate-python-tutorial/
 - Answer 032 1. Don't panic, don't be overwhelmed by the amount of code. 2. Focus on high level "APIs" first: what kind of functions, classes are linked, how does the code flow, which function calls another. 3. You can even draw a picture that illustrates the code logic. 4. Think about each function's signature: what kind of inputs it takes and what kind outputs it returns. 5. Think about high level what each function wants to achieve, and how it fits in the large picture. For example: data cleaning, transformation pipeline, data augmentation, training loop, calculating loss, forward backward, evaluation loop.
+- Answer 033 if you want to save the progress of your training or your pandas dataframe you can use python pickle files read more here my_dataframe.to_pickle(file_name) [Getting started with python pickle](https://www.siliconvanity.com/2017/12/getting-started-with-python-pickle.html)
+
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
