@@ -26,6 +26,9 @@
 - FAQ 022 Introduction to ArgParse command line with python Ans: 031
 - FAQ 023 Tips for working on a command line deep learning project. Ans: 032
 - FAQ 024 Save your dataset and progress with python pickle file. Ans: 033
+- FAQ 025 show me an example of using lambda Ans: 034
+- FAQ 026 show me an example of using lambda in pandas dataframe Ans: 034
+- FAQ 027 how to programmatically modify a column in pandas dataframe Ans: 034
 
 
 # ANSWERS
@@ -70,9 +73,34 @@ Check out this Titanic plot where the hue is `class`. `sns.countplot(x='survived
 - Answer 031 https://pythonprogramming.net/argparse-cli-intermediate-python-tutorial/
 - Answer 032 1. Don't panic, don't be overwhelmed by the amount of code. 2. Focus on high level "APIs" first: what kind of functions, classes are linked, how does the code flow, which function calls another. 3. You can even draw a picture that illustrates the code logic. 4. Think about each function's signature: what kind of inputs it takes and what kind outputs it returns. 5. Think about high level what each function wants to achieve, and how it fits in the large picture. For example: data cleaning, transformation pipeline, data augmentation, training loop, calculating loss, forward backward, evaluation loop.
 - Answer 033 if you want to save the progress of your training or your pandas dataframe you can use python pickle files read more here my_dataframe.to_pickle(file_name) [Getting started with python pickle](https://www.siliconvanity.com/2017/12/getting-started-with-python-pickle.html)
+- Answer 034 
+```
+import pandas as pd
+test = [1,2,3,4]
+test = pd.Series(test) #cast the list variable as a Pandas Series
+test.apply(lambda x: x+1) 
+# Pandas.Series.apply() allows us to a function to each entry in the Series
+# We use a lambda function
+# Some alteratives are list comprehension, named function,
+# anonymous function in other languages like javascript
+# the format of a lambda function is
+# the key word "lambda" followed by the argument or input such as "x" or "x,y"
+# then a colon ":"
+# then the expression to be returned
+# in this case x+1
+# add one to x
+# [1,2,3,4] becomes [2,3,4,5]
+# dear students
+# we can schedule a one-on-one meeting to go over lambda usage
+# contact me today
+```
 
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
 - Pytorch general 012 006
 - Project CharityML 
+
+
+codewars
+hacker rank
