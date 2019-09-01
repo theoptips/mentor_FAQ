@@ -17,6 +17,9 @@
 - FAQ 013	How to fine tune my ad? Did you know you can view best performing ads, and the overall demographics data in the Udacity ad master account? During one-on-one session with one student we found Ans: 013 014 015 016
 - FAQ 014	My Google adwords ads or Facebook ads are not showing. Ans 018
 - FAQ 015	My Facebook ad was deleted! Ans 019
+- FAQ 016	Getting started with mailchimp marketing Ans 20
+- FAQ 017	SEO audit marketing objective and KPI Ans 21
+- FAQ 018	Syllabus - list of the DMND projects Ans 22
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -39,9 +42,28 @@
 - Answer 017 [Storyboards Replaces User Journey- Digital Marketing Trend](https://www.invisionapp.com/inside-design/user-journey-storyboards)
 - Answer 018 It seems that there are some questions why ads are not showing up: both Facebook and Google Adwords sometimes hide/ de-prioritize ads because of community guidelines, policy violations, less performant, relevancy (if you ad is shown but no one clicked on it), if your adword is outbid by other competitors, also repetition (if a network deemed that similar ad has been seen multiple times, repeated and may annoy users), ad budget has been reached so no ads show. Here's one example https://uptownstudios.net/client-faqs-google-ad-not-showing/ In a rare occasion, other students or staff might have accidentally or intentionally deleted your ad (if your ad was not approved), please notify support@udacity.com immediately if there's an issue.
 - Answer 019 Rare case: if you think another student accidentally deleted your ad set please contact support immediately. Common case: if you see an admin, for example Rachel, deleted your ad set it could be because 1. you didn't name the ad set according to guideline 2. you didn't pass Part 1 of the project that approves your ad set. You can remedy this by setting your ad to run only after you are sure you can submit and get part 1 of the ad campaign approved. 
+- Answer 020 mailchimp email design guide great for attracting customers through newsletters and market with email project. This resource is great for small businesses as well as corporations. https://mailchimp.com/email-design-guide/
+- Answer 021 
+Setting Marketing objectives and KPI for SEO audit. Here 'he' refers to an outperforming Digital Marketing Nanodegree Student:  As you know goals and tracking should be SMART so he narrowed down on Organic search traffic, he used a % percentage change to measure his goals for the time span of one month. This website is a bit ad heavy, but it explains [seo](https://cognitiveseo.com/blog/15516/measure-seo-efforts/) The first step to measure SEO performance is definitely Organic Search Traffic. More advanced measurements later include Social Share, Conversion, Funnel throughput etc. Given that we have limited access to t he design and configuration of DMND websites, it is okay for us to use entry level measurements (in Google analytics this can show up as referral site report, how much traffic is coming from Google, did it increase over the past month or weeks) It's a hypothetical objective and KPI but you can see it is still very useful especially if a 3rd party marketing professional has limited access to developer resources of the website
+- Answer 022
+	- List of projects
+	- Prepare to Market
+	- Market your Content
+	- Run a Facebook Campaign (Part 1)
+	- Run a Facebook Campaign (Part 2)
+	- Conduct an SEO Audit
+	- Create an AdWords Campaign (Part 1)
+	- Run an AdWords Campaign (Part 2)
+	- Evaluate a Display Campaign
+	- Market with Email
+	- Create Your Portfolio
+
 
 # Related FAQ 
 - Customer Journey 001 004 005
 - eCommerce Retail 009
+
+
+
 
 
