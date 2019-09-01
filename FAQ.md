@@ -29,6 +29,7 @@
 - FAQ 025 show me an example of using lambda Ans: 034
 - FAQ 026 show me an example of using lambda in pandas dataframe Ans: 034
 - FAQ 027 how to programmatically modify a column in pandas dataframe Ans: 034
+- FAQ 028 How matplotlib works under the hood 035
 
 
 # ANSWERS
@@ -95,12 +96,10 @@ test.apply(lambda x: x+1)
 # contact me today
 ```
 
+- Answer 035 [matplotlib explained](https://www.siliconvanity.com/2019/08/matplotlib-explained-kite-blog.html)
+
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
 - Pytorch general 012 006
-- Project CharityML 
-
-
-codewars
-hacker rank
+- Project CharityML
