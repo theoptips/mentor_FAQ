@@ -30,6 +30,7 @@
 - FAQ 026 show me an example of using lambda in pandas dataframe Ans: 034
 - FAQ 027 how to programmatically modify a column in pandas dataframe Ans: 034
 - FAQ 028 How matplotlib works under the hood 035
+- FAQ 029 New student welcome, wiki and logistics Ans 036
 
 
 # ANSWERS
@@ -97,6 +98,7 @@ test.apply(lambda x: x+1)
 ```
 
 - Answer 035 [matplotlib explained](https://www.siliconvanity.com/2019/08/matplotlib-explained-kite-blog.html)
+- ANswer 036 [New students welcome](New student welcome, wiki and logistics)
 
 
 # Related FAQ 

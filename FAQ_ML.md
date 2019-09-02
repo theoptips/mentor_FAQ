@@ -11,6 +11,7 @@
 - FAQ 007	Reproducible research, deep learning, machine learning Ans: 006
 - FAQ 008	What should I expect at the end of the course? What would I gain from this course? Ans: 007
 - FAQ 009 Data Augmentation in Computer Vision, why and how to do it
+- FAQ 010 
 
 
 # ANSWERS
