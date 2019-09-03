@@ -99,9 +99,9 @@ test.apply(lambda x: x+1)
 ```
 
 - Answer 035 [matplotlib explained](https://www.siliconvanity.com/2019/08/matplotlib-explained-kite-blog.html)
-- Answer 036 [New students welcome](New student welcome, wiki and logistics)
+- Answer 036 [New students welcome](https://docs.google.com/document/d/1wRDL1NEFEzgXdhLwKGlcxvgyIen2Bb3REEWq29eMf2Y/edit?usp=sharing) New student welcome, wiki and logistics
 - Answer 037 
-![argparse example][argparse_example.PNG]
+![argparse example][argparse_example.png]
 If you run `python train.py --input_n 1` You have to run your command line command in the same folder as your script. returns `('input_n is ', '1')`
 In Jupyter Notebook you can run command line commands by prepending an exclaimation mark `!`. `!ls` instead of `ls` to list all the files in the directory. Open a Jupyter Notebook and run `!ls` in a cell. You can see what's in the Udacity working directory. Very useful for Customer Segment project as well.
 
