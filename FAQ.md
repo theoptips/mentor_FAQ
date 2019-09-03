@@ -32,6 +32,7 @@
 - FAQ 028 How matplotlib works under the hood 035
 - FAQ 029 New student welcome, wiki and logistics Ans 036
 - FAQ 030 Working with command line argparse example Ans 037
+- FAQ 031 Transfer learning explained Ans 038
 
 
 # ANSWERS
@@ -105,9 +106,11 @@ test.apply(lambda x: x+1)
 <img src="argparse_example.png" width="100">
 If you run `python train.py --input_n 1` You have to run your command line command in the same folder as your script. returns `('input_n is ', '1')`
 In Jupyter Notebook you can run command line commands by prepending an exclaimation mark `!`. `!ls` instead of `ls` to list all the files in the directory. Open a Jupyter Notebook and run `!ls` in a cell. You can see what's in the Udacity working directory. Very useful for Customer Segment project as well.
+- Answer 038 [Transfer Learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) [Transfer Learning](https://medium.com/data-science-bootcamp/transfer-learning-with-pytorch-code-snippet-load-a-pretrained-model-900374950004)
 
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
 - Pytorch general 012 006
 - Project CharityML
+
