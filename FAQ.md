@@ -31,6 +31,7 @@
 - FAQ 027 how to programmatically modify a column in pandas dataframe Ans: 034
 - FAQ 028 How matplotlib works under the hood 035
 - FAQ 029 New student welcome, wiki and logistics Ans 036
+- FAQ 030 Working with command line argparse example Ans 037
 
 
 # ANSWERS
@@ -98,7 +99,11 @@ test.apply(lambda x: x+1)
 ```
 
 - Answer 035 [matplotlib explained](https://www.siliconvanity.com/2019/08/matplotlib-explained-kite-blog.html)
-- ANswer 036 [New students welcome](New student welcome, wiki and logistics)
+- Answer 036 [New students welcome](New student welcome, wiki and logistics)
+- Answer 037 
+![argparse example][argparse_example.PNG]
+If you run `python train.py --input_n 1` You have to run your command line command in the same folder as your script. returns `('input_n is ', '1')`
+In Jupyter Notebook you can run command line commands by prepending an exclaimation mark `!`. `!ls` instead of `ls` to list all the files in the directory. Open a Jupyter Notebook and run `!ls` in a cell. You can see what's in the Udacity working directory. Very useful for Customer Segment project as well.
 
 
 # Related FAQ 
