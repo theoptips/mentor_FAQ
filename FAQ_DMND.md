@@ -20,6 +20,8 @@
 - FAQ 016	Getting started with mailchimp marketing Ans 20
 - FAQ 017	SEO audit marketing objective and KPI Ans 21
 - FAQ 018	Syllabus - list of the DMND projects Ans 22
+- FAQ 019	SEO Audit: head vs tail keywords - https://www.wordstream.com/head-term
+- FAQ 020	How to set up a google adword campaign, a checklist from Google https://ads.google.com/home/resources/how-to-setup-googleads-a-checklist/
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com

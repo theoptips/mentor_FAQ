@@ -33,6 +33,7 @@
 - FAQ 029 New student welcome, wiki and logistics Ans 036
 - FAQ 030 Working with command line argparse example Ans 037
 - FAQ 031 Transfer learning explained Ans 038
+- FAQ 032 CUDA model, data RuntimeError: Expected object of type torch.FloatTensor but found type torch.cuda.FloatTensor Ans 039
 
 
 # ANSWERS
@@ -107,6 +108,7 @@ test.apply(lambda x: x+1)
 If you run `python train.py --input_n 1` You have to run your command line command in the same folder as your script. returns `('input_n is ', '1')`
 In Jupyter Notebook you can run command line commands by prepending an exclaimation mark `!`. `!ls` instead of `ls` to list all the files in the directory. Open a Jupyter Notebook and run `!ls` in a cell. You can see what's in the Udacity working directory. Very useful for Customer Segment project as well.
 - Answer 038 [Transfer Learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) [Transfer Learning](https://medium.com/data-science-bootcamp/transfer-learning-with-pytorch-code-snippet-load-a-pretrained-model-900374950004)
+- Ans 039 This can be an error when both the model as well as the data didn't move to GPU together, and or didn't move back to CPU together. It can help if we only moved one of the two, or it can happen because we used `model.to(torch.device('cuda'))` but didn't re-assign the `model` variable like such `model = model.to(torch.device('cuda'))`. Why? Because `.to()` returns a new tensor or a new variable, and is not an in-place operation. 
 
 
 # Related FAQ 
