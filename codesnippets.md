@@ -9,3 +9,16 @@
 * Get row col count of dataframe df.shape
 * Get summary data df.describe()
 
+## Udacity Project Workspace
+* 
+
+## Review
+* 
+
+## Numpy and Matplotlib and Data Visualization with Seaborn
+* [Numpy and Matplotlib tutorial](http://cs231n.github.io/python-numpy-tutorial/)
+* Key to display seaborn bar charts side-by-side in the same x axis and y axis using the dimension 'hue'
+* [Intermediate plotting in matplotlib](http://cs231n.github.io/python-numpy-tutorial/) 
+
+## Sklearn
+* [sklearn cheatsheet (view w premium Medium membership or Browser incognito mode, contact mentor if issues)](https://medium.com/data-science-bootcamp/scikit-learn-sklearn-cheatsheet-72739349da70)
