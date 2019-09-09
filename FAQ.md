@@ -23,7 +23,7 @@
 - FAQ 019 Where do I find summary data, meta data of the dataset for Customer Segmentation? How do I know which unknown or missing values to replace? Ans: 028
 - FAQ 020 Paper on data augmentation. Ans: 029
 - FAQ 021 Batch size and stochastic gradient descent Ans: 030
-- FAQ 022 Introduction to ArgParse command line with python Ans: 031
+- FAQ 022 Introduction to ArgParse command line with python Ans: 031 041
 - FAQ 023 Tips for working on a command line deep learning project. Ans: 032
 - FAQ 024 Save your dataset and progress with python pickle file. Ans: 033
 - FAQ 025 show me an example of using lambda Ans: 034
@@ -34,6 +34,7 @@
 - FAQ 030 Working with command line argparse example Ans 037
 - FAQ 031 Transfer learning explained Ans 038
 - FAQ 032 CUDA model, data RuntimeError: Expected object of type torch.FloatTensor but found type torch.cuda.FloatTensor Ans 039
+- FAQ 033 Need a refresher on Linear Algebra, need help with the matrix multiplication in linear regression and neural networks. 
 
 
 # ANSWERS
@@ -109,6 +110,8 @@ If you run `python train.py --input_n 1` You have to run your command line comma
 In Jupyter Notebook you can run command line commands by prepending an exclaimation mark `!`. `!ls` instead of `ls` to list all the files in the directory. Open a Jupyter Notebook and run `!ls` in a cell. You can see what's in the Udacity working directory. Very useful for Customer Segment project as well.
 - Answer 038 [Transfer Learning](https://machinelearningmastery.com/transfer-learning-for-deep-learning/) [Transfer Learning](https://medium.com/data-science-bootcamp/transfer-learning-with-pytorch-code-snippet-load-a-pretrained-model-900374950004)
 - Ans 039 This can be an error when both the model as well as the data didn't move to GPU together, and or didn't move back to CPU together. It can help if we only moved one of the two, or it can happen because we used `model.to(torch.device('cuda'))` but didn't re-assign the `model` variable like such `model = model.to(torch.device('cuda'))`. Why? Because `.to()` returns a new tensor or a new variable, and is not an in-place operation. 
+- Ans 040 Free Udacity Linear Algebra Course https://www.udacity.com/course/linear-algebra-refresher-course--ud953
+- Ans 041 argparse documentation https://pytorch.org/docs/stable/notes/cuda.html#device-agnostic-code
 
 
 # Related FAQ 

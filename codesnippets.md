@@ -4,13 +4,14 @@
 * pd.read_csv with separator delimiter comma `dataframe = pd.read_csv('data.csv', sep=",")` 
 * access all the columns to loop over pd.DataFrame.columns
 * one hot encoding pd.get_dummies()
+* Use named variable to make your code more readable example `n` `df.head(n=2)` view pandas dataframe head with `n=2`, first two rows only
 * Turn a list into a Series or a column my_series = pd.Series([1,2,3,4])
 * Set a column of a dataframe equal to a series my_df['column_name'] = my_series
 * Get row col count of dataframe df.shape
 * Get summary data df.describe()
 
 ## Udacity Project Workspace
-* 
+* View file view menu in Jupyter Notebook and Udacity workspace [youtube link](https://youtu.be/LhFJ8xPUNWg)
 
 ## Review
 * 
