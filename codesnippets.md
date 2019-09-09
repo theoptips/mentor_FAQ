@@ -13,6 +13,11 @@
 ## Udacity Project Workspace
 * View file view menu in Jupyter Notebook and Udacity workspace [youtube link](https://youtu.be/LhFJ8xPUNWg)
 
+## Project walkthrough
+* ? checking with mentor ops if okay to do end-to-end project walkthrough
+* Review files in a working directly command line in Jupyter Notebook. Useful if want to view visuals module in CharityML and Customer Segmentation via data summary files markdown files. [youtube video](https://youtu.be/LhFJ8xPUNWg)
+* Convert between numpy and pytorch tensor [youtube here](https://youtu.be/-mbFczHtOYA)
+
 ## Review
 * 
 
