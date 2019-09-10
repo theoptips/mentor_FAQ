@@ -35,6 +35,7 @@
 - FAQ 031 Transfer learning explained Ans 038
 - FAQ 032 CUDA model, data RuntimeError: Expected object of type torch.FloatTensor but found type torch.cuda.FloatTensor Ans 039
 - FAQ 033 Need a refresher on Linear Algebra, need help with the matrix multiplication in linear regression and neural networks. 
+- FAQ 034 RuntimeError: Expected object of type torch.FloatTensor but found type torch.cuda.FloatTensor for argument Ans 042
 
 
 # ANSWERS
@@ -112,6 +113,13 @@ In Jupyter Notebook you can run command line commands by prepending an exclaimat
 - Ans 039 This can be an error when both the model as well as the data didn't move to GPU together, and or didn't move back to CPU together. It can help if we only moved one of the two, or it can happen because we used `model.to(torch.device('cuda'))` but didn't re-assign the `model` variable like such `model = model.to(torch.device('cuda'))`. Why? Because `.to()` returns a new tensor or a new variable, and is not an in-place operation. 
 - Ans 040 Free Udacity Linear Algebra Course https://www.udacity.com/course/linear-algebra-refresher-course--ud953
 - Ans 041 argparse documentation https://pytorch.org/docs/stable/notes/cuda.html#device-agnostic-code
+- Ans 042 Always always mean that your model and data are not in the same location together, whether that location is CPU or GPU. 
+You can check the location of your data and model by inferring from their tensor type
+There are at least two ways to check type
+`model = model.to(device)` move model to device and also re-assign the model variable so we can type check
+`type(model_name)`, `type(data_name)`
+`vgg_model.classifier[1].weight.type()`
+type check the variables and or type check the weight parameter of the model or classifier
 
 
 # Related FAQ 
