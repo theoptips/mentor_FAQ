@@ -1,3 +1,6 @@
+## Environment Setup
+* The easiest way to set up is install Anaconda on Windows or Mac (easy access to CUDA GPU included). [Anaconda Environment Cheatsheet](https://medium.com/data-science-bootcamp/anaconda-miniconda-cheatsheet-for-data-scientists-2c1be12f56db)
+
 ## Pandas
 * pandas cheatsheet (Medium member premium or Browser Incognito Mode, if still have trouble reach out to mentor) [pandas cheatsheet](https://medium.com/@uniqtech/pandas-data-analysis-cheatsheet-ea619fd35b8f)
 * important data structure: DataFrame and Series 
