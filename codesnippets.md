@@ -54,3 +54,9 @@ def get_features(model):
     else:
         return model.classifier[1].in_features
 ```
+- Add an argument to argparse
+```
+parser.add_argument('--model', 
+                    type=str, 
+                    help='Choose vgg16 or alexnet from torchvision.models')
+```
