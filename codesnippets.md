@@ -31,3 +31,26 @@
 
 ## Sklearn
 * [sklearn cheatsheet (view w premium Medium membership or Browser incognito mode, contact mentor if issues)](https://medium.com/data-science-bootcamp/scikit-learn-sklearn-cheatsheet-72739349da70)
+
+## Computer Vision and Image Classification
+### custom argparse model arch parameter
+### access the number of in_features in vgg16 and in_features in alexnet. They are 25088 and 9216
+'''
+if arg.arch == "vgg16":
+    classifier_feature_num = model.classifier[0].in_features
+    
+elif arg.arch == "alexnet":
+    classifier_feature_num = model.classifier[1].in_features
+'''
+- provide a default value for argparse parameters `parser.add_argument('--epochs', type=int. default=3, help='Epochs for training as int')`` [documentation](https://docs.python.org/3/library/argparse.html#default)
+- Set the `in_feature` and `out_feature` of the classifier in transfer learning [Medium article explains transfer learning](https://medium.com/data-science-bootcamp/transfer-learning-with-pytorch-code-snippet-load-a-pretrained-model-900374950004)
+```
+def get_features(model):
+    '''
+    Get number of features for both model types
+    '''
+    if model.name == 'vgg16':
+        return model.classifier[0].in_features
+    else:
+        return model.classifier[1].in_features
+```

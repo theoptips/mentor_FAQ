@@ -4,3 +4,6 @@
 - Study tip : attempt projects early. Preview projects before finishing all neccessary video lessons.
 - Goal of Nanodegree: start building a professional  portfolio, be able to consume industry research, news, and architecture
 - Motivation, planning : TinyHabit framework do XYZ right after ABC. For example, every time before eating a dessert watch a Udacity lesson. Every time after using the bathroom, attempt one exercise of project. Stanford Professor TinyHabit
+
+# General tips
+- Join the alumni network after graduating https://alumni.udacity.com/
