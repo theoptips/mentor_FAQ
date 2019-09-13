@@ -60,3 +60,4 @@ parser.add_argument('--model',
                     type=str, 
                     help='Choose vgg16 or alexnet from torchvision.models')
 ```
+- Run a python script by running this command in the same directory as the script `python script_name.py` 
