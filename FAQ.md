@@ -36,6 +36,7 @@
 - FAQ 032 CUDA model, data RuntimeError: Expected object of type torch.FloatTensor but found type torch.cuda.FloatTensor Ans 039
 - FAQ 033 Need a refresher on Linear Algebra, need help with the matrix multiplication in linear regression and neural networks. 
 - FAQ 034 RuntimeError: Expected object of type torch.FloatTensor but found type torch.cuda.FloatTensor for argument Ans 042
+- FAQ 035 How much linear algebra do I have to know? Ans 043
 
 
 # ANSWERS
@@ -121,6 +122,46 @@ There are at least two ways to check type
 `vgg_model.classifier[1].weight.type()`
 type check the variables and or type check the weight parameter of the model or classifier
 
+- Ans 043 
+- That's a great question. As previously mentioned, an overview of the linear algebra review is nice, but definitely no need to cover all aspects. The most important are matrix multiplication dot product, matrix dimension during the multiplication, you won't be needing the transformation operations in the last section in a long while so feel free to skip now come back later. It's a great question because we definitely want to be strategic. Time is limited for the nanodegree.
+
+
+In addition these are useful : magnitude, matrix addition (adding a bias in Neural Network), identity matrix,
+
+You just need a brief review, and get an intuition. No need to understand all now :) don't worry if this is a foreign concept. Often we found student need a good intuition of the concept to move ahead, not necessarily the entire discipline.
+
+After the nanodegree, you will find that consuming literature, news and even some technical papers in deep learning and machine learning will become much easier!
+
+
+To summarize a few points: during matrix multiplication the inner dimension must match matmul of dimension m x n to n x l will result in a matrix of m x l
+
+matmul of matrix of dimension m x n to s x l will result in error because n and s do not match
+
+there are operations that are equivalent: matrix subtraction can be seen as an equivalent of matrix addition, for example take Matrix A and B (matrix is always noted in capped form), A+B is easy element wise addition, dimension m x n must match, because it is an element-wise operation
+
+A-B is the same as A + -1(B) so it is equivalent to A + the scalar multiplication of -1 and matrix B
+
+you will notice that in Udacity code X the input and W the matrix is capped at times, that refers to them being matrices
+
+the small y output is a vector so it is not capped
+
+Magnitude sounds like a new concept but in 2 dimensions, it is the euclidean distance between two points, calculated using the pythagorean theorem ||V|| ** 2= V_x**2 + V_y**2 in computer science **2 means squared. You can see ||V|| the double bar denotes the magnitude or L2 norm is the hypothenuse of a triangle formed by V_x and V_y
+
+The L1 norm manhattan distance is something we are familiar with |V| a single bar! Aka the absolute value.
+
+Linear algebra sort of explain everything we missed in algebra and calculus. It's crazy useful
+
+y = X W + b it looks like a linear line formula but it is the output label vector y = big input matrix X weighted by big weight matrix W add a bias term which is also a vector. This formula is the essence of neural networks.
+
+Looks complicated but surprisingly simple
+
+Pandas and Numpy use a lot of vector math - matrix math to speed up computation. A trivia to know is that PCA use matrix factorization to reduce dimensions. If you encounter this section in the refresher course, no need to know the details, it is a bit hard, but knowing the intuition is useful. The concept of orthogonal which in 2 dimensions means perpendicular is useful too. Also just need to know the high level intuition.
+
+I keep saying 2-dim because linear algebra can calculate any dimensions. Often in NN the dimensionality can be as high as millions or more for example a 28 by 28 pixel image x 3 color channels and there are 10,000 images = 23520000
+
+Matrix math is required for GPUs.
+
+Just like we don't need to know how calculators work. We don't need to know how GPU or the Pytorch library or Numpy handles every detail of operation. We just need to know it can do it, and the intuition behind the math, high level architecture, and why it is faster than normal python loops
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
