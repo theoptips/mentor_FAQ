@@ -163,6 +163,8 @@ Matrix math is required for GPUs.
 
 Just like we don't need to know how calculators work. We don't need to know how GPU or the Pytorch library or Numpy handles every detail of operation. We just need to know it can do it, and the intuition behind the math, high level architecture, and why it is faster than normal python loops
 
+- Ans 044 Looking for an overview of Convolutional Neural Networks? search for CS231 a course by Stanford on youtube. Watch 1-5 episodes if possible. Definitely watch episode 5 if time is limited.
+
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
 - Pytorch general 012 006
