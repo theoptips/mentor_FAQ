@@ -37,7 +37,8 @@
 - FAQ 033 Need a refresher on Linear Algebra, need help with the matrix multiplication in linear regression and neural networks. 
 - FAQ 034 RuntimeError: Expected object of type torch.FloatTensor but found type torch.cuda.FloatTensor for argument Ans 042
 - FAQ 035 How much linear algebra do I have to know? Ans 043
-- FAQ 036 sckit-learn sklearn cheat sheet Ans 045
+- FAQ 036 scikit-learn sklearn cheat sheet Ans 045
+- FAQ 037 I want to learn more about reinforcement learning and self-driving cars. Ans 046
 
 
 # ANSWERS
@@ -165,7 +166,8 @@ Matrix math is required for GPUs.
 Just like we don't need to know how calculators work. We don't need to know how GPU or the Pytorch library or Numpy handles every detail of operation. We just need to know it can do it, and the intuition behind the math, high level architecture, and why it is faster than normal python loops
 
 - Ans 044 Looking for an overview of Convolutional Neural Networks? search for CS231 a course by Stanford on youtube. Watch 1-5 episodes if possible. Definitely watch episode 5 if time is limited.
-- Ans 045 [sklearn sckit-learn cheatsheet](https://medium.com/data-science-bootcamp/scikit-learn-sklearn-cheatsheet-72739349da70) use Medium membership or Browser Incognito Mode
+- Ans 045 [sklearn scikit-learn cheatsheet](https://medium.com/data-science-bootcamp/scikit-learn-sklearn-cheatsheet-72739349da70) use Medium membership or Browser Incognito Mode
+- Ans 046 nanodegrees are by nature nano, cannot cover all hot topics, but thankfully Udacity School of AI has plenty of resources to offer. October 2019 currently the Amazon Web Service (AWS DeepRacer challenge course if on-going and free. If you want to get an intro to Reinforcement Learning, self-driving cars check it out. Of course the full Reinforcement Learning nanodegree and self-driving car nanodegree is available. I have seen BMW, Benz, Lyft and Uber recruit Udacity graduates in the self-driving nanodegree. 
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
