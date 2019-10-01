@@ -7,3 +7,5 @@
 
 # General tips
 - Join the alumni network after graduating https://alumni.udacity.com/
+- Keep a schedule, regularly study course work and work on project
+- Udacity finds that students that regularly log into courses and engage with mentors to be more likely to graduate and succeed.
