@@ -12,7 +12,10 @@
 - FAQ 008	What should I expect at the end of the course? What would I gain from this course? Ans: 007
 - FAQ 009 	Data Augmentation in Computer Vision, why and how to do it Ans 008
 - FAQ 010 	Learn more about reinforcement learning. Reinforcement Learning resources 009
-
+- FAQ 011	What should I know before starting the capstone project? Answer 010
+- FAQ 012 Machine learning textbook Ans 011
+- FAQ 013 Capstone suggested format
+- FAQ 014 What is the difference between intro to machine learning, machine learning engineer, deep learning, artificial intelligence, self-driving, computer vision nanodegrees
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -25,8 +28,11 @@
 - Answer 007 You will gain intro level production deployment experience to AWS SageMaker, get experience with a capstone project, get intermediate-advanced python coding experience, OOP, docstring.
 - Answer 008 [The Effectiveness of Data Augmentation in Image Classification using Deep Learning](http://cs231n.stanford.edu/reports/2017/pdfs/300.pdf)
 - Answer 009 [open AI gym reinforcement learning. Agents hide and seek](https://youtu.be/kopoLzvh5jY)
+- Answer 010 There is a recommended format and page number should be substantial. [Capstone Report Template](https://github.com/udacity/machine-learning/blob/master/projects/capstone/capstone_report_template.md)
+- Answer 011 [machine learning textbook online](http://aima.cs.berkeley.edu/)
+- Answer 012 Checking the syllabus of each nanodegree is the best way to understand the detailed differences among those great choices.
 
-# Related FAQ 
+# Related FAQ
 - Project Amazon SageMaker Deployment 001
 - SageMaker 001 003
 - FAQ_ML 007 Related to FAQ Q 016
