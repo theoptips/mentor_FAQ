@@ -64,6 +64,10 @@ Setting Marketing objectives and KPI for SEO audit. Here 'he' refers to an outpe
 	- Recommended articles
 	-- [Shopify story telling is more important than ads](https://www.shopify.com/blog/superfithero-storytelling)
 	-- [Instagram story ideas](https://www.shopify.com/blog/instagram-stories-ideas)
+	-- [black friday promotions](https://www.shopify.com/blog/black-friday-cyber-monday-shopify-apps?)
+	-- [Prototyping Lean UX Customer Journey Map](https://blog.marvelapp.com/proto-journey-lean-ux-customer-journey-map/)
+	-- [keywords](https://www.wordstream.com/head-term)
+	-- [Google ad campaign basics](https://ads.google.com/home/resources/how-to-setup-googleads-a-checklist/)
 
 
 # Related FAQ 
