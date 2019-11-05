@@ -12,10 +12,12 @@
 - FAQ 008	What should I expect at the end of the course? What would I gain from this course? Ans: 007
 - FAQ 009 	Data Augmentation in Computer Vision, why and how to do it Ans 008
 - FAQ 010 	Learn more about reinforcement learning. Reinforcement Learning resources 009
-- FAQ 011	What should I know before starting the capstone project? Answer 010
+- FAQ 011	What should I know before starting the capstone project? Answer 010 Also see FAQ 015
 - FAQ 012 Machine learning textbook Ans 011
-- FAQ 013 Capstone suggested format
-- FAQ 014 What is the difference between intro to machine learning, machine learning engineer, deep learning, artificial intelligence, self-driving, computer vision nanodegrees
+- FAQ 013 Capstone suggested format Ans 010
+- FAQ 014 What is the difference between intro to machine learning, machine learning engineer, deep learning, artificial intelligence, self-driving, computer vision nanodegrees Ans 012
+- FAQ 015 Important things to know before capstone! Ans 013
+- FAQ 016 Where to find my AWS promotional credit? Included AWS credit for GPU training Ans 014
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -31,6 +33,8 @@
 - Answer 010 There is a recommended format and page number should be substantial. [Capstone Report Template](https://github.com/udacity/machine-learning/blob/master/projects/capstone/capstone_report_template.md)
 - Answer 011 [machine learning textbook online](http://aima.cs.berkeley.edu/)
 - Answer 012 Checking the syllabus of each nanodegree is the best way to understand the detailed differences among those great choices.
+- Answer 013 Check class imbalance, check curse of dimensionality (how many rows of data do you have), feature engineering, column selection, data cleaning, scaling, transformation, converting colored image to black and white? Best metrics. Benchmark is important!
+- Answer 014 It is located in the Resource tab on the left. The resource tab is right underneath the search tab.
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001
