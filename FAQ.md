@@ -41,6 +41,7 @@
 - FAQ 037 I want to learn more about reinforcement learning and self-driving cars. Ans 046
 - FAQ 038 PCA ValueError Answer 047
 - FAQ 039 Support Vector Machine Ans 048
+- FAQ 040 Data cleaning, data augmentation explained. Ans 049
 
 
 # ANSWERS
@@ -172,6 +173,7 @@ Just like we don't need to know how calculators work. We don't need to know how 
 - Ans 046 nanodegrees are by nature nano, cannot cover all hot topics, but thankfully Udacity School of AI has plenty of resources to offer. October 2019 currently the Amazon Web Service (AWS DeepRacer challenge course if on-going and free. If you want to get an intro to Reinforcement Learning, self-driving cars check it out. Of course the full Reinforcement Learning nanodegree and self-driving car nanodegree is available. I have seen BMW, Benz, Lyft and Uber recruit Udacity graduates in the self-driving nanodegree. [link](https://www.udacity.com/aws-deepracer-scholarship) AWS Deep Racer after project 1 and project 2 this course will be easy to understand
 - Ans 047 PCA error ValueError: operands could not be broadcast together with shapes (6,3) (2,) . This is just an example, but notice that there's a discrepency of column dimensions? This happens when the dataset used to fit the PCA has different number of columns as the dataset we are trying to use the PCA model to transform. 
 - Ans 048 https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html
+- Ans 049 Why so much data cleaning data augmentation? Generally machine learning models can only consume numeric data, it is important to convert images and other feature datas into tensors, which is what the Pytorch  and numpy arrays which Scikit-learn can consume. Data augmentation makes your algorithm more robust, less likely to overfit, because it is now trained on noisier data with more variations. Rotation, cropping, flipping helps with that. Why the sizing and normalization? Machine learning is quite practical but it is also empirical. We usually use what works the best. During transfer learning, we use high performance models proven to work. To feed our data into the model, we need to give the size and architecture that the model expects. Generally tricks `log` `normalization` `scaling` makes the algorithm perform better, or makes the math easier. This paragraph is also published to the FAQ page. http://bit.ly/Umentor-faq
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
