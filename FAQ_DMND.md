@@ -22,6 +22,7 @@
 - FAQ 018	Syllabus - list of the DMND projects Ans 22
 - FAQ 019	SEO Audit: head vs tail keywords - https://www.wordstream.com/head-term
 - FAQ 020	How to set up a google adword campaign, a checklist from Google https://ads.google.com/home/resources/how-to-setup-googleads-a-checklist/
+- FAQ 021	Recommended articles Ans 23
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -59,6 +60,10 @@ Setting Marketing objectives and KPI for SEO audit. Here 'he' refers to an outpe
 	- Evaluate a Display Campaign
 	- Market with Email
 	- Create Your Portfolio
+- Answer 023
+	- Recommended articles
+	-- [Shopify story telling is more important than ads](https://www.shopify.com/blog/superfithero-storytelling)
+	-- [Instagram story ideas](https://www.shopify.com/blog/instagram-stories-ideas)
 
 
 # Related FAQ 
