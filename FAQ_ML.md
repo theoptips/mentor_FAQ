@@ -18,6 +18,7 @@
 - FAQ 014 What is the difference between intro to machine learning, machine learning engineer, deep learning, artificial intelligence, self-driving, computer vision nanodegrees Ans 012
 - FAQ 015 Important things to know before capstone! Ans 013
 - FAQ 016 Where to find my AWS promotional credit? Included AWS credit for GPU training Ans 014
+- FAQ 017 Tell me more about benchmarking. Answer 015
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -35,6 +36,7 @@
 - Answer 012 Checking the syllabus of each nanodegree is the best way to understand the detailed differences among those great choices.
 - Answer 013 Check class imbalance, check curse of dimensionality (how many rows of data do you have), feature engineering, column selection, data cleaning, scaling, transformation, converting colored image to black and white? Best metrics. Benchmark is important!
 - Answer 014 It is located in the Resource tab on the left. The resource tab is right underneath the search tab.
+- Answer 015 Practical benchmark for study projects like the capstone requires only a baseline model, such as a vanilla model, without hyperparameter tuning, an out-of-box model. The goal is to improve on this model and achieve a meaningful outcome at the end of the paper. Some students choose to apply a state-of-art new model on an existing paper and dataset. Some students choose to AlexNet as base, VGG as improvement or VGG as benchmark/ base and ResNet as improvement Improving a model from out-of-box default to hyperparameter tuned, or train with epochs, on custom dataset usually improves performance.
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001
