@@ -42,6 +42,7 @@
 - FAQ 038 PCA ValueError Answer 047
 - FAQ 039 Support Vector Machine Ans 048
 - FAQ 040 Data cleaning, data augmentation explained. Ans 049
+- FAQ 041 Github profile github help. Ans 050
 
 
 # ANSWERS
@@ -174,6 +175,7 @@ Just like we don't need to know how calculators work. We don't need to know how 
 - Ans 047 PCA error ValueError: operands could not be broadcast together with shapes (6,3) (2,) . This is just an example, but notice that there's a discrepency of column dimensions? This happens when the dataset used to fit the PCA has different number of columns as the dataset we are trying to use the PCA model to transform. 
 - Ans 048 https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html
 - Ans 049 Why so much data cleaning data augmentation? Generally machine learning models can only consume numeric data, it is important to convert images and other feature datas into tensors, which is what the Pytorch  and numpy arrays which Scikit-learn can consume. Data augmentation makes your algorithm more robust, less likely to overfit, because it is now trained on noisier data with more variations. Rotation, cropping, flipping helps with that. Why the sizing and normalization? Machine learning is quite practical but it is also empirical. We usually use what works the best. During transfer learning, we use high performance models proven to work. To feed our data into the model, we need to give the size and architecture that the model expects. Generally tricks `log` `normalization` `scaling` makes the algorithm perform better, or makes the math easier. This paragraph is also published to the FAQ page. http://bit.ly/Umentor-faq
+- Ans 050 current version of the intro to ML nanodegree should have a Github Profile project in Supervised Learning session, right below the CharityML project section. 
 
 # Related FAQ 
 - Pytorch VGG error no attribute 001 002
