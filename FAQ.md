@@ -44,6 +44,9 @@
 - FAQ 040 Data cleaning, data augmentation explained. Ans 049
 - FAQ 041 Github profile github help. Ans 050
 - FAQ 042 Image Classifier in the command line. What does my folder structure look like? Ans 051
+- FAQ 043 Are project deadlines mandatory? Ans 052
+- FAQ 044 Question about enrollment, payment, or a classroom or video glitch, email **machine-support@udacity.com**.
+- FAQ 045 How much extracurricular should I study Answer Ans 053
 
 
 # ANSWERS
@@ -131,6 +134,7 @@ type check the variables and or type check the weight parameter of the model or 
 
 - Ans 043 
 - That's a great question. As previously mentioned, an overview of the linear algebra review is nice, but definitely no need to cover all aspects. The most important are matrix multiplication dot product, matrix dimension during the multiplication, you won't be needing the transformation operations in the last section in a long while so feel free to skip now come back later. It's a great question because we definitely want to be strategic. Time is limited for the nanodegree.
+- Ans 044 
 
 
 In addition these are useful : magnitude, matrix addition (adding a bias in Neural Network), identity matrix,
@@ -178,6 +182,8 @@ Just like we don't need to know how calculators work. We don't need to know how 
 - Ans 049 Why so much data cleaning data augmentation? Generally machine learning models can only consume numeric data, it is important to convert images and other feature datas into tensors, which is what the Pytorch  and numpy arrays which Scikit-learn can consume. Data augmentation makes your algorithm more robust, less likely to overfit, because it is now trained on noisier data with more variations. Rotation, cropping, flipping helps with that. Why the sizing and normalization? Machine learning is quite practical but it is also empirical. We usually use what works the best. During transfer learning, we use high performance models proven to work. To feed our data into the model, we need to give the size and architecture that the model expects. Generally tricks `log` `normalization` `scaling` makes the algorithm perform better, or makes the math easier. This paragraph is also published to the FAQ page. http://bit.ly/Umentor-faq
 - Ans 050 current version of the intro to ML nanodegree should have a Github Profile project in Supervised Learning session, right below the CharityML project section. 
 - Ans 051 See img folder.png In this final submission folder there should be the .ipynb notebook, .html version of the notebook, train.py and predict.py
+- Ans 052 "Project due dates are suggestions, not hard deadlines. There's no penalty for submitting late projects, and you can submit a project multiple times to pass. We strongly suggest that you try to submit a final solution by the listed deadline. This allows you to benefit from progressing with your classmates; also, we see that students who submit the first two projects on time have a much higher chance of completing the program as a whole!" It is important to know that the very last project deadline is mandatory if you purchased the course access, or it is a good estimate of how long you will keep your monthly subscription active.
+- Ans 053 `SQL` is helpful for job interviews. You won't need it for this nanodegree. You need a basic review of Pandas, Numpy, and `linear algebra` matrix addition, and multiplication. Pay special attention to the dimension requirements of matmul. It is recommended to not study the extracurriculum in its entirety. It will take time away from your nanodegree. If you have any questions about whether you need a particular lesson, kindly contact me. I can help point you to the right direction. 
 
 
 # Related FAQ 
