@@ -185,7 +185,7 @@ Just like we don't need to know how calculators work. We don't need to know how 
 - Ans 051 See img folder.png In this final submission folder there should be the .ipynb notebook, .html version of the notebook, train.py and predict.py
 - Ans 052 "Project due dates are suggestions, not hard deadlines. There's no penalty for submitting late projects, and you can submit a project multiple times to pass. We strongly suggest that you try to submit a final solution by the listed deadline. This allows you to benefit from progressing with your classmates; also, we see that students who submit the first two projects on time have a much higher chance of completing the program as a whole!" It is important to know that the very last project deadline is mandatory if you purchased the course access, or it is a good estimate of how long you will keep your monthly subscription active.
 - Ans 053 `SQL` is helpful for job interviews. You won't need it for this nanodegree. You need a basic review of Pandas, Numpy, and `linear algebra` matrix addition, and multiplication. Pay special attention to the dimension requirements of matmul. It is recommended to not study the extracurriculum in its entirety. It will take time away from your nanodegree. If you have any questions about whether you need a particular lesson, kindly contact me. I can help point you to the right direction. 
-- Ans 054 Pandas Cheat Sheet https://blog.goodaudience.com/data-science-a-piece-of-cake-92a70232e71f
+- Ans 054 Pandas Cheat Sheet https://medium.com/@uniqtech/pandas-data-analysis-cheatsheet-ea619fd35b8f
 
 
 # Related FAQ 

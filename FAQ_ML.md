@@ -19,6 +19,7 @@
 - FAQ 015 Important things to know before capstone! Ans 013
 - FAQ 016 Where to find my AWS promotional credit? Included AWS credit for GPU training Ans 014
 - FAQ 017 Tell me more about benchmarking. Answer 015
+- FAQ 018 Cannot find ml.p2.xlarge in limit request Access to GPU. "on the aws console, when i search for p2.xlarge, there's just no result at all." Ans 16
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -37,6 +38,17 @@
 - Answer 013 Check class imbalance, check curse of dimensionality (how many rows of data do you have), feature engineering, column selection, data cleaning, scaling, transformation, converting colored image to black and white? Best metrics. Benchmark is important!
 - Answer 014 It is located in the Resource tab on the left. The resource tab is right underneath the search tab.
 - Answer 015 Practical benchmark for study projects like the capstone requires only a baseline model, such as a vanilla model, without hyperparameter tuning, an out-of-box model. The goal is to improve on this model and achieve a meaningful outcome at the end of the paper. Some students choose to apply a state-of-art new model on an existing paper and dataset. Some students choose to AlexNet as base, VGG as improvement or VGG as benchmark/ base and ResNet as improvement Improving a model from out-of-box default to hyperparameter tuned, or train with epochs, on custom dataset usually improves performance.
+- Answer 016 The problem is that the p2 xlarge machine is no longer under EC2 category but now under sagemaker
+	- visit https://console.aws.amazon.com/
+	- top right corner click on support
+	- click create a case (orange button)
+	- Select Service Limit radio button
+	- In the case, Search and Select SageMaker as Limit Type
+	- Select the same region as the region that is displayed on the top right  corner of your amazon console.
+	- Upon selected region, Select SageMaker Training as Resource Type
+	- Select ml.p2.xlarge in Limit
+	- New Limit Values `1`
+- Answer 017
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001

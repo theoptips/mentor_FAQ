@@ -23,6 +23,7 @@
 - FAQ 019	SEO Audit: head vs tail keywords - https://www.wordstream.com/head-term
 - FAQ 020	How to set up a google adword campaign, a checklist from Google https://ads.google.com/home/resources/how-to-setup-googleads-a-checklist/
 - FAQ 021	Recommended articles Ans 23
+- FAQ 022	How do I write an effective empathy map? Ans 24
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -68,6 +69,9 @@ Setting Marketing objectives and KPI for SEO audit. Here 'he' refers to an outpe
 	-- [Prototyping Lean UX Customer Journey Map](https://blog.marvelapp.com/proto-journey-lean-ux-customer-journey-map/)
 	-- [keywords](https://www.wordstream.com/head-term)
 	-- [Google ad campaign basics](https://ads.google.com/home/resources/how-to-setup-googleads-a-checklist/)
+- Answer 024
+	- Empathy Map worksheet link here
+	- Do you already have a Facebook fan base? Your brand has a well liked Business Page may be in the thousands? View insights here https://www.facebook.com/help/pages/insights
 
 
 # Related FAQ 
