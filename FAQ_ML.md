@@ -20,6 +20,8 @@
 - FAQ 016 Where to find my AWS promotional credit? Included AWS credit for GPU training Ans 014
 - FAQ 017 Tell me more about benchmarking. Answer 015
 - FAQ 018 Cannot find ml.p2.xlarge in limit request Access to GPU. "on the aws console, when i search for p2.xlarge, there's just no result at all." Ans 16
+- FAQ 019 ResourceLimitExceeded: An error occurred (ResourceLimitExceeded) when calling the CreateEndpoint operation Ans 17
+- FAQ 020 What are the differences of aws sagemaker instance types. What is `ml.p2.xlarge`
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -48,7 +50,8 @@
 	- Upon selected region, Select SageMaker Training as Resource Type
 	- Select ml.p2.xlarge in Limit
 	- New Limit Values `1`
-- Answer 017
+- Answer 017 This ResourceLimitExceeded error can happen to `ml.m4.xlarge` as well as `ml.p2.xlarge` Full error message `ResourceLimitExceeded: An error occurred (ResourceLimitExceeded) when calling the CreateEndpoint operation: The account-level service limit 'ml.m4.xlarge for endpoint usage' is 0 Instances, with current utilization of 0 Instances and a request delta of 1 Instances. Please contact AWS support to request an increase for this limit.` Note specifically this is an `endpoint` resource error. Turns out there isn't good documentation about the actual limit of compute instances. And there is a difference between `sagemaker training` and `sagemaker hosting`. Definitely be sure to follow Answer 16 to request `sagemaker training` increase for `ml.p2.xlarge`, which is accelerated training. Be sure to request `sagemaker hosting` limit increase for `ml.m4.xlarge` if you encountered the above error. [Follow this link to resolve this issue](https://knowledge.udacity.com/questions/60402)
+- Answer 018 [AWS Sagemaker instance types](https://aws.amazon.com/sagemaker/pricing/instance-types/)
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001
