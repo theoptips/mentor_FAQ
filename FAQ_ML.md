@@ -22,6 +22,7 @@
 - FAQ 018 Cannot find ml.p2.xlarge in limit request Access to GPU. "on the aws console, when i search for p2.xlarge, there's just no result at all." Ans 16
 - FAQ 019 ResourceLimitExceeded: An error occurred (ResourceLimitExceeded) when calling the CreateEndpoint operation Ans 17 Ans 19 Ans 20
 - FAQ 020 What are the differences of aws sagemaker instance types. What is `ml.p2.xlarge` Ans 18
+- FAQ 021 How do I get started on my capstone project? Ans 21
 
 
 # ANSWERS
@@ -56,6 +57,7 @@
 - Answer 019 More about the AWS Sagemaker compute instance limit issue. `Amazon SageMaker's limits for new accounts may differ from those listed under https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_sagemaker . Please contact customer service to request a limit increase for the resources you intend to use.
 https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_sagemaker`
 - Answer 020 Also make sure to conserve your resources by stopping Notebook instances asap, stop or delete endpoints on the [AWS console](https://console.aws.amazon.com/). 
+- ANswer 021 here's a great article on medium about how to get started with the capstone project. It also contain important tips [Tips for Udacity Machine Learning Nanodegree Capstone Project](https://medium.com/@mmatterr/tips-for-udacity-machine-learning-engineering-nanodegree-capstone-project-1110ce5b8cd0)
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001
