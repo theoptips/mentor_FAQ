@@ -24,6 +24,7 @@
 - FAQ 020	How to set up a google adword campaign, a checklist from Google https://ads.google.com/home/resources/how-to-setup-googleads-a-checklist/
 - FAQ 021	Recommended articles Ans 23
 - FAQ 022	How do I write an effective empathy map? Ans 24
+- FAQ 023	Recommended but optional readings and resources on for DMND.  Ans 25
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -72,7 +73,16 @@ Setting Marketing objectives and KPI for SEO audit. Here 'he' refers to an outpe
 - Answer 024
 	- Empathy Map worksheet link here
 	- Do you already have a Facebook fan base? Your brand has a well liked Business Page may be in the thousands? View insights here https://www.facebook.com/help/pages/insights
-
+- Answer 025
+	- [value proposition](https://blog.hubspot.com/marketing/write-value-proposition)
+	- [buyer persona](https://blog.hubspot.com/marketing/buyer-persona-examples)
+	- [data driven marketing by hootsuite]( https://offers.hubspot.com/data-driven-marketers-guide-templates-analytics-reporting-automation) may requires business email
+	- [improving ROI on facebook ads](https://www.searchenginepeople.com/blog/improve-marketing-roi-facebook-ads.html)
+	- [facebook ads increasing ROI](https://taktical.co/6-awesome-facebook-advertising-hacks-to-increase-roi/)
+	- [facebook ad optimization](https://adespresso.com/guides/facebook-ads-optimization/)
+	- [hubspot: optimize facebook ad](https://offers.hubspot.com/how-to-optimize-your-facebook-ads)
+	- [ebook hubspot](https://offers.hubspot.com/ebook-templates) may require business email
+	- [hubspot git and github for beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 
 # Related FAQ 
 - Customer Journey 001 004 005

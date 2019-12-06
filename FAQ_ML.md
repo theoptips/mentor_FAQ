@@ -40,7 +40,7 @@
 - Answer 011 [machine learning textbook online](http://aima.cs.berkeley.edu/)
 - Answer 012 Checking the syllabus of each nanodegree is the best way to understand the detailed differences among those great choices.
 - Answer 013 Check class imbalance, check curse of dimensionality (how many rows of data do you have), feature engineering, column selection, data cleaning, scaling, transformation, converting colored image to black and white? Best metrics. Benchmark is important!
-- Answer 014 It is located in the Resource tab on the left. The resource tab is right underneath the search tab.
+- Answer 014 It is located in the Resource tab on the left. The resource tab is right underneath the search tab. [Read more about it here](http://bit.ly/aws-credit-udacity) Troubleshoot use this link.
 - Answer 015 Practical benchmark for study projects like the capstone requires only a baseline model, such as a vanilla model, without hyperparameter tuning, an out-of-box model. The goal is to improve on this model and achieve a meaningful outcome at the end of the paper. Some students choose to apply a state-of-art new model on an existing paper and dataset. Some students choose to AlexNet as base, VGG as improvement or VGG as benchmark/ base and ResNet as improvement Improving a model from out-of-box default to hyperparameter tuned, or train with epochs, on custom dataset usually improves performance.
 - Answer 016 The problem is that the p2 xlarge machine is no longer under EC2 category but now under sagemaker
 	- visit https://console.aws.amazon.com/
