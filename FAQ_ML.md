@@ -20,7 +20,7 @@
 - FAQ 016 Where to find my AWS promotional credit? Included AWS credit for GPU training Ans 014
 - FAQ 017 Tell me more about benchmarking. Answer 015
 - FAQ 018 Cannot find ml.p2.xlarge in limit request Access to GPU. "on the aws console, when i search for p2.xlarge, there's just no result at all." Ans 16
-- FAQ 019 ResourceLimitExceeded: An error occurred (ResourceLimitExceeded) when calling the CreateEndpoint operation Ans 17 Ans 19
+- FAQ 019 ResourceLimitExceeded: An error occurred (ResourceLimitExceeded) when calling the CreateEndpoint operation Ans 17 Ans 19 Ans 20
 - FAQ 020 What are the differences of aws sagemaker instance types. What is `ml.p2.xlarge` Ans 18
 
 
@@ -55,6 +55,7 @@
 - Answer 018 [AWS Sagemaker instance types](https://aws.amazon.com/sagemaker/pricing/instance-types/)
 - Answer 019 More about the AWS Sagemaker compute instance limit issue. `Amazon SageMaker's limits for new accounts may differ from those listed under https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_sagemaker . Please contact customer service to request a limit increase for the resources you intend to use.
 https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_sagemaker`
+- Answer 020 Also make sure to conserve your resources by stopping Notebook instances asap, stop or delete endpoints on the [AWS console](https://console.aws.amazon.com/). 
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001
