@@ -24,6 +24,7 @@
 - FAQ 020 What are the differences of aws sagemaker instance types. What is `ml.p2.xlarge` Ans 18
 - FAQ 021 How do I get started on my capstone project? Ans 21
 - FAQ 022 pre-requisites Ans 22
+- FAQ 023 Difference between the intro to ML and MLEND the two Machine Learning Engineering Nanodegrees Ans 23
 
 
 # ANSWERS
@@ -60,6 +61,7 @@ https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_sag
 - Answer 020 Also make sure to conserve your resources by stopping Notebook instances asap, stop or delete endpoints on the [AWS console](https://console.aws.amazon.com/). 
 - Answer 021 here's a great article on medium about how to get started with the capstone project. It also contain important tips [Tips for Udacity Machine Learning Nanodegree Capstone Project](https://medium.com/@mmatterr/tips-for-udacity-machine-learning-engineering-nanodegree-capstone-project-1110ce5b8cd0)
 - Answer 022 AI and ML experience in Python is helpful. There's a free Python course offered by Udacity. Student also found the AI with Python nanodegree to be helpful. A review of Python and Jupyter Notebook is helpful. Preview capstone and think about datasets and examples to use from Kaggle way before the capstone is also said to be helpful.
+- ANswer 023 The best way to compare is to download the syllabus PDF of each nanodegree and compare. On a high level: Intro to Machine Learning nanodegree covers the classical machine learning algorithms like decision trees, support vector machine, has a brief intro project computer vision neural network Convolutional Neural Network (CNN) and transfer learning, then introduces several unsupervised learning methods. Both project 1 and project 2 place heavy emphasis on data cleaning, feature engineering using pandas, scikit learn, and project 2 with PCA. MLEND focuses on Amazon cloud Amazon Web Service (AWS) SageMaker deployment, starting a notebook instance on AWS SageMaker, deploy a sentiment analysis model, try out some example notebooks, then there's a bit of feature engineering for natural language processing (NLP) engineering longest common sequence (LCS) and containtment, introduction to case studies in AWS SageMaker including deploying custom Pytorch models. Finally it ends with a capstone proposal and a capstone project, which can take quite a bit of time. The MLEND requires students to implement machine learning right away. Those new to ML should start with intro to ML. 
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001
