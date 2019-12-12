@@ -48,7 +48,7 @@
 - FAQ 044 Question about enrollment, payment, or a classroom or video glitch, email **machine-support@udacity.com**.
 - FAQ 045 How much extracurricular should I study Answer Ans 053
 - FAQ 046 Pandas Cheat Sheet Ans 054
-
+- FAQ 047 pre-requisites Ans 055
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -186,6 +186,7 @@ Just like we don't need to know how calculators work. We don't need to know how 
 - Ans 052 "Project due dates are suggestions, not hard deadlines. There's no penalty for submitting late projects, and you can submit a project multiple times to pass. We strongly suggest that you try to submit a final solution by the listed deadline. This allows you to benefit from progressing with your classmates; also, we see that students who submit the first two projects on time have a much higher chance of completing the program as a whole!" It is important to know that the very last project deadline is mandatory if you purchased the course access, or it is a good estimate of how long you will keep your monthly subscription active.
 - Ans 053 `SQL` is helpful for job interviews. You won't need it for this nanodegree. You need a basic review of Pandas, Numpy, and `linear algebra` matrix addition, and multiplication. Pay special attention to the dimension requirements of matmul. It is recommended to not study the extracurriculum in its entirety. It will take time away from your nanodegree. If you have any questions about whether you need a particular lesson, kindly contact me. I can help point you to the right direction. 
 - Ans 054 Pandas Cheat Sheet https://medium.com/@uniqtech/pandas-data-analysis-cheatsheet-ea619fd35b8f
+- Ans 055 A time-controlled review of the extracurricular section: Pandas (in Data Analysis with Python), Linear Algebra (just up till after multiplication is enough). There is no need to understand all details in the extracurricular section. It will take too much time away from the nanodegree and the SQL section is for interview purpose only, which is not needed for the actual projects.
 
 
 # Related FAQ 

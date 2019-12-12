@@ -25,6 +25,9 @@
 - FAQ 021	Recommended articles Ans 23
 - FAQ 022	How do I write an effective empathy map? Ans 24
 - FAQ 023	Recommended but optional readings and resources on for DMND.  Ans 25
+- FAQ 024	Where do I find survey subjects - people to ask for interviews for persona or people for my mailing list? Ans 26
+- FAQ 025	What are the steps to complete the email marketing project? Ans 27
+- FAQ 026	I need to take better screenshots Ans 28
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -81,8 +84,12 @@ Setting Marketing objectives and KPI for SEO audit. Here 'he' refers to an outpe
 	- [facebook ads increasing ROI](https://taktical.co/6-awesome-facebook-advertising-hacks-to-increase-roi/)
 	- [facebook ad optimization](https://adespresso.com/guides/facebook-ads-optimization/)
 	- [hubspot: optimize facebook ad](https://offers.hubspot.com/how-to-optimize-your-facebook-ads)
+	- [Social Media Trends 2020](https://offers.hubspot.com/social-media-trends-2020)
 	- [ebook hubspot](https://offers.hubspot.com/ebook-templates) may require business email
 	- [hubspot git and github for beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+- Answer 026 You can ask your classmates in the hub.udacity.com chat channel for the nanodegree. They are in the same boat with you and are usually friendly bunch who are happy to lend a hand. You can also ask family friends and acquaintances. 
+- Answer 027 Looks like for planning email CTA KPIs you have to plan three emails and extra detail for email 1. The calendar part is hypothetical, you can color in the calendar in ways that makes sense. But you wont be graded too strictly. Generally students choose a sequential or cascading pattern: one email following another 1, 2, 3 with a bit of overlap or zero overlap. You will want to write email 1 out, on one slide, and also make the email in mailchimp and take a screenshot. You will want to send a test email of email 1 out to yourself, your own email address. You will want to write an alternative subject line and CTA for email 1, for AB testing purpose. If you need emails to sign up you can ask your classmates for help in the hub.udacity.com chat channel for DMND nanodegree
+- Answer 028 You may know that on Mac it is easy to use keyboard shortcuts to take screenshots but it is hard to take full page screenshots when the web pages are long. I personally use a chrome extension called FireShot. During my consulting days I use Snagit. Sounds a bit bizarre but actually works well in a professional setting. Caution: screenshot extensions and software are sometimes not safe nor secure. You may want to do prior research before exposing your computer screen to a 3rd party. I don't know how good is the fireshot or snagit security and privacy policy.
 
 # Related FAQ 
 - Customer Journey 001 004 005
