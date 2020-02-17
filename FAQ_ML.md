@@ -25,6 +25,9 @@
 - FAQ 021 How do I get started on my capstone project? Ans 21
 - FAQ 022 pre-requisites Ans 22
 - FAQ 023 Difference between the intro to ML and MLEND the two Machine Learning Engineering Nanodegrees Ans 23
+- FAQ 024 Help! My model performance isn't improving the loss is not decreasing. Ans 24
+- FAQ 025 AWS SageMaker XGBoost error `tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0 [1]#011train-error:0#011validation-error:0` `Will train until validation-error hasn't improved in 10 rounds.
+[02:58:35] src/tree/updater_prune.cc:74: tree pruning end, 1 roots, 0 extra nodes, 0 pruned nodes, max_depth=0` You can tell that the XGBoost tree never trained because the train error and validation error are both zero. Ans 25
 
 
 # ANSWERS
@@ -63,6 +66,8 @@ https://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html#limits_sag
 - Answer 021 here's a great article on medium about how to get started with the capstone project. It also contain important tips [Tips for Udacity Machine Learning Nanodegree Capstone Project](https://medium.com/@mmatterr/tips-for-udacity-machine-learning-engineering-nanodegree-capstone-project-1110ce5b8cd0)
 - Answer 022 AI and ML experience in Python is helpful. There's a free Python course offered by Udacity. Student also found the AI with Python nanodegree to be helpful. A review of Python and Jupyter Notebook is helpful. Preview capstone and think about datasets and examples to use from Kaggle way before the capstone is also said to be helpful.
 - ANswer 023 The best way to compare is to download the syllabus PDF of each nanodegree and compare. On a high level: Intro to Machine Learning nanodegree covers the classical machine learning algorithms like decision trees, support vector machine, has a brief intro project computer vision neural network Convolutional Neural Network (CNN) and transfer learning, then introduces several unsupervised learning methods. Both project 1 and project 2 place heavy emphasis on data cleaning, feature engineering using pandas, scikit learn, and project 2 with PCA. MLEND focuses on Amazon cloud Amazon Web Service (AWS) SageMaker deployment, starting a notebook instance on AWS SageMaker, deploy a sentiment analysis model, try out some example notebooks, then there's a bit of feature engineering for natural language processing (NLP) engineering longest common sequence (LCS) and containtment, introduction to case studies in AWS SageMaker including deploying custom Pytorch models. Finally it ends with a capstone proposal and a capstone project, which can take quite a bit of time. The MLEND requires students to implement machine learning right away. Those new to ML should start with intro to ML. 
+- ANswer 024 When in doubt try a smaller learning rate such as 0.01, 0.005, 0.001
+- Answer 025 First suggestion is to check the model container and instance, test it out on a known dataset and see if it gives good result. This way we guarantee the model instance is pristine. Though this error you see is largely because even though XGBoost model trained (though it looks like it just have one tree one split), but the data csv or the data label contains error. For example, in this case, the target column was compromised during the cleaning process so it is either all 0 or all 1. The model didn't have to train per se, it can just predict always 0 or always 1 and achieve zero training error and zero validation error. Because the error is zero. it couldn't train on zero error.
 
 # Related FAQ
 - Project Amazon SageMaker Deployment 001

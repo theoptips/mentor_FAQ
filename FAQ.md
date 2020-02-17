@@ -50,6 +50,9 @@
 - FAQ 046 Pandas Cheat Sheet Ans 054
 - FAQ 047 pre-requisites Ans 055
 - FAQ 048 Difference between the intro to ML and MLEND the two Machine Learning Engineering Nanodegrees Ans 056
+- FAQ 049 I cannot understand the example, can you give me another example and some visual aids (slides, visualizations, simulations)? Ans 057
+- FAQ 050 Help I don't know where to start for Image Classifier project. Are there any sample codes I can look at. Ans 058
+- FAQ 051 Help! My model performance isn't improving the loss is not decreasing. Ans 059
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -189,7 +192,9 @@ Just like we don't need to know how calculators work. We don't need to know how 
 - Ans 054 Pandas Cheat Sheet https://medium.com/@uniqtech/pandas-data-analysis-cheatsheet-ea619fd35b8f
 - Ans 055 A time-controlled review of the extracurricular section: Pandas (in Data Analysis with Python), Linear Algebra (just up till after multiplication is enough). There is no need to understand all details in the extracurricular section. It will take too much time away from the nanodegree and the SQL section is for interview purpose only, which is not needed for the actual projects.
 - Ans 056 The best way to compare is to download the syllabus PDF of each nanodegree and compare. On a high level: Intro to Machine Learning nanodegree covers the classical machine learning algorithms like decision trees, support vector machine, has a brief intro project computer vision neural network Convolutional Neural Network (CNN) and transfer learning, then introduces several unsupervised learning methods. Both project 1 and project 2 place heavy emphasis on data cleaning, feature engineering using pandas, scikit learn, and project 2 with PCA. MLEND focuses on Amazon cloud Amazon Web Service (AWS) SageMaker deployment, starting a notebook instance on AWS SageMaker, deploy a sentiment analysis model, try out some example notebooks, then there's a bit of feature engineering for natural language processing (NLP) engineering longest common sequence (LCS) and containtment, introduction to case studies in AWS SageMaker including deploying custom Pytorch models. Finally it ends with a capstone proposal and a capstone project, which can take quite a bit of time. The MLEND requires students to implement machine learning right away. Those new to ML should start with intro to ML. 
-
+- Ans 057 yes, absolutely, please message me in mentor chat on student hub. 
+- Ans 058 Link to this repository is provided in the pre-notebook section of the deep learning with python lessons. Check it out, it is very useful for writing your training loop. 
+- Ans 059 When in doubt try a smaller learning rate such as 0.01, 0.005, 0.001
 
 
 # Related FAQ 

@@ -28,6 +28,9 @@
 - FAQ 024	Where do I find survey subjects - people to ask for interviews for persona or people for my mailing list? Ans 26
 - FAQ 025	What are the steps to complete the email marketing project? Ans 27
 - FAQ 026	I need to take better screenshots Ans 28
+- FAQ 027	MailChimp interface looks different Ans 29
+- FAQ 028	Facebook ad not working Ans 30
+- FAQ 029	Facebook ad set was deleted. Ans 31
 
 # ANSWERS
 - Answer 000 When in doubt email support@udacity.com
@@ -90,6 +93,9 @@ Setting Marketing objectives and KPI for SEO audit. Here 'he' refers to an outpe
 - Answer 026 You can ask your classmates in the hub.udacity.com chat channel for the nanodegree. They are in the same boat with you and are usually friendly bunch who are happy to lend a hand. You can also ask family friends and acquaintances. 
 - Answer 027 Looks like for planning email CTA KPIs you have to plan three emails and extra detail for email 1. The calendar part is hypothetical, you can color in the calendar in ways that makes sense. But you wont be graded too strictly. Generally students choose a sequential or cascading pattern: one email following another 1, 2, 3 with a bit of overlap or zero overlap. You will want to write email 1 out, on one slide, and also make the email in mailchimp and take a screenshot. You will want to send a test email of email 1 out to yourself, your own email address. You will want to write an alternative subject line and CTA for email 1, for AB testing purpose. If you need emails to sign up you can ask your classmates for help in the hub.udacity.com chat channel for DMND nanodegree
 - Answer 028 You may know that on Mac it is easy to use keyboard shortcuts to take screenshots but it is hard to take full page screenshots when the web pages are long. I personally use a chrome extension called FireShot. During my consulting days I use Snagit. Sounds a bit bizarre but actually works well in a professional setting. Caution: screenshot extensions and software are sometimes not safe nor secure. You may want to do prior research before exposing your computer screen to a 3rd party. I don't know how good is the fireshot or snagit security and privacy policy.
+- Answer 029 Looks like mailchimp recently updated and re-branded itself in 2019. It can be confusing for users. But keep in mind, this kind of revamp and refresh is good for the tool and good for marketing professionals. Now List is called Audience, and all emails are called Contacts. While that is different, everything is intuitive and not hard to extrapolate. Emails are Campaigns. Tracking is in Reports. Learning new technology and interface is definitely an important skill marketing professionals should have. 
+- Answer 030 Check to make sure adblocker is disabled, pop-ups are allowed. Use Chrome or Firefox instead of Safari or Internet Explorer. Facebook Ad Manager relies on modern JavaScript to work well in the browser.
+- Answer 031 this appears multiple times in the FAQ, please message me in mentor chat on Student Hub to work on your unique situation together. In some cases there are missed notifications in the Ad Manager or in Email. In some case, the tech lead of DMND may have an idea of what happened if the ad didn't meet certain requirements. Sometimes Facebook also disable ads that have too many texts, isn't performing, doesn't have enough budget etc, or appeared more than a few times to the same user. Please definitely reach out to me. 
 
 # Related FAQ 
 - Customer Journey 001 004 005
